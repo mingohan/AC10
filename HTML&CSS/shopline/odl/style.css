@@ -1,0 +1,61 @@
+.header {
+  background-color: black;
+  display: flex;
+  width: 100%;
+}
+img.header {
+  height: 50px;
+  width: 50px;
+}
+.header img {
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  width: 50px;
+}
+.header-link {
+  color: aliceblue;
+
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 80px;
+}
+
+.header p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* .nav-p {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+} */
+
+.nav-p {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+.free-trail {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(9, 37, 128);
+  /* border: 50%; */
+  border-radius: 30px;
+}
+.free-trail div {
+  /* display: flex; */
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+}
+.ad-banner {
+  background-color: rgb(10, 24, 71);
+  color: aliceblue;
+}
